@@ -32,3 +32,24 @@ export default function Layout() {
     </CartProvider>
   );
 }
+
+//Definição dos estilos.
+const styles = StyleSheet.create({
+  fab: {
+    position: 'absolute', // Faz o botão flutuar sobre o conteúdo da tela
+    bottom: 30,
+    right: 20,
+    backgroundColor: '#ff2d6f', // Cor principal
+    width: 60,
+    height: 60,
+    borderRadius: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+//Personalização da sombra.
+    elevation: 5,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 3,
+  }
+});
