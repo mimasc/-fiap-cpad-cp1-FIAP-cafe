@@ -37,5 +37,17 @@ Para rodar o projeto é necessário ter alguns pré-requisitos instalados:
 
 ---
 
+## 🎬 Demonstração
+(Espaço para prints e link do vídeo que serão posteriormente adicionados no README)
+
+---
+
+## 🛠️ Decisões Técnicas
+(Espaço para explicação das decisões técnicas tomadas no desenvolvimento do projeto que serão posteriormente adicionados no README)
+
+---
+
+## 🔮 Próximos Passos
+(Espaço para sugestão de próximos passos que serão posteriormente adicionados no README)
 
 
