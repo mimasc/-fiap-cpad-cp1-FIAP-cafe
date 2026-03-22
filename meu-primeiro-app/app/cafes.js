@@ -30,65 +30,65 @@ export default function Cafes() {
         <View style={styles.item}>
           <Text style={styles.colunaNome}>Espresso</Text>
           <TouchableOpacity onPress={() => addToCart({ nome: 'Espresso (P)', preco: 4 })}>
-             <Text style={styles.colunaPreco}>R$ 4  </Text>
+             <Text style={styles.colunaPreco}>R$ 4           </Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => addToCart({ nome: 'Espresso (M)', preco: 5 })}>
-             <Text style={styles.colunaPreco}>R$ 5  </Text>
+             <Text style={styles.colunaPreco}>R$ 5          </Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => addToCart({ nome: 'Espresso (G)', preco: 6 })}>
-             <Text style={styles.colunaPreco}>R$ 6</Text>
+             <Text style={styles.colunaPreco}>R$ 6     </Text>
           </TouchableOpacity>
         </View>
  
         <View style={styles.item}>
           <Text style={styles.colunaNome}>Americano</Text>
           <TouchableOpacity onPress={() => addToCart({ nome: 'Americano (P)', preco: 5 })}>
-             <Text style={styles.colunaPreco}>R$ 5  </Text>
+             <Text style={styles.colunaPreco}>R$ 5           </Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => addToCart({ nome: 'Americano (M)', preco: 6 })}>
-             <Text style={styles.colunaPreco}>R$ 6  </Text>
+             <Text style={styles.colunaPreco}>R$ 6          </Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => addToCart({ nome: 'Americano (G)', preco: 7 })}>
-             <Text style={styles.colunaPreco}>R$ 7</Text>
+             <Text style={styles.colunaPreco}>R$ 7     </Text>
           </TouchableOpacity>
         </View>
  
         <View style={styles.item}>
           <Text style={styles.colunaNome}>Latte</Text>
           <TouchableOpacity onPress={() => addToCart({ nome: 'Latte (P)', preco: 6 })}>
-             <Text style={styles.colunaPreco}>R$ 6  </Text>
+             <Text style={styles.colunaPreco}>R$ 6           </Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => addToCart({ nome: 'Latte (M)', preco: 7 })}>
-             <Text style={styles.colunaPreco}>R$ 7  </Text>
+             <Text style={styles.colunaPreco}>R$ 7          </Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => addToCart({ nome: 'Latte (G)', preco: 8 })}>
-             <Text style={styles.colunaPreco}>R$ 8</Text>
+             <Text style={styles.colunaPreco}>R$ 8     </Text>
           </TouchableOpacity>
         </View>
  
         <View style={styles.item}>
           <Text style={styles.colunaNome}>Moca</Text>
           <TouchableOpacity onPress={() => addToCart({ nome: 'Moca (P)', preco: 6 })}>
-             <Text style={styles.colunaPreco}>R$ 6  </Text>
+             <Text style={styles.colunaPreco}>R$ 6           </Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => addToCart({ nome: 'Moca (M)', preco: 7 })}>
-             <Text style={styles.colunaPreco}>R$ 7  </Text>
+             <Text style={styles.colunaPreco}>R$ 7          </Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => addToCart({ nome: 'Moca (G)', preco: 8 })}>
-             <Text style={styles.colunaPreco}>R$ 8</Text>
+             <Text style={styles.colunaPreco}>R$ 8     </Text>
           </TouchableOpacity>
         </View>
  
         <View style={styles.item}>
           <Text style={styles.colunaNome}>Chá de erva-doce</Text>
           <TouchableOpacity onPress={() => addToCart({ nome: 'Chá de erva-doce (P)', preco: 4 })}>
-             <Text style={styles.colunaPreco}>R$ 4  </Text>
+             <Text style={styles.colunaPreco}>R$ 4           </Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => addToCart({ nome: 'Chá de erva-doce (M)', preco: 5 })}>
-             <Text style={styles.colunaPreco}>R$ 5  </Text>
+             <Text style={styles.colunaPreco}>R$ 5          </Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => addToCart({ nome: 'Chá de erva-doce (G)', preco: 6 })}>
-             <Text style={styles.colunaPreco}>R$ 6</Text>
+             <Text style={styles.colunaPreco}>R$ 6     </Text>
           </TouchableOpacity>
         </View>
  
@@ -104,21 +104,21 @@ export default function Cafes() {
         <View style={styles.extra}>
           <Text style={styles.colunaNome}>Chantilly</Text>
           <TouchableOpacity onPress={() => addToCart({ nome: 'Extra: Chantilly', preco: 3 })}>
-            <Text style={styles.extraPreco}>R$ 3</Text>
+            <Text style={styles.extraPreco}>R$ 3     </Text>
           </TouchableOpacity>
         </View>
  
         <View style={styles.extra}>
           <Text style={styles.colunaNome}>Calda com sabor</Text>
           <TouchableOpacity onPress={() => addToCart({ nome: 'Extra: Calda com sabor', preco: 2 })}>
-            <Text style={styles.extraPreco}>R$ 2</Text>
+            <Text style={styles.extraPreco}>R$ 2     </Text>
           </TouchableOpacity>
         </View>
  
         <View style={styles.extra}>
           <Text style={styles.colunaNome}>Leite de soja</Text>
           <TouchableOpacity onPress={() => addToCart({ nome: 'Extra: Leite de soja', preco: 4 })}>
-            <Text style={styles.extraPreco}>R$ 4</Text>
+            <Text style={styles.extraPreco}>R$ 4     </Text>
           </TouchableOpacity>
         </View>
  
