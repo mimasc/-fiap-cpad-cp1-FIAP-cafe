@@ -18,3 +18,24 @@ O aplicativo já conta com funcionalidades como navegação entre categorias, ad
 
 ---
 
+## 🚀 Como Rodar o Projeto
+Para rodar o projeto é necessário ter alguns pré-requisitos instalados:  
+- Node.js  
+- Visual Studio Code (VS Code)  
+- Expo CLI (`npm install -g expo-cli`)  
+- Aplicativo Expo Go no celular (Android/iOS) ou emulador configurado  
+
+**Passo a passo:**  
+1. Clonar o repositório:  
+   git clone <https://github.com/mimasc/-fiap-cpad-cp1-FIAP-cafe>
+   cd meu-primeiro-app   
+2. Instalar dependências:
+   npm install
+3. Rodar o projeto:
+   npm start
+4. Escanear o QR Code com o Expo Go ou abrir no emulador.
+
+---
+
+
+
