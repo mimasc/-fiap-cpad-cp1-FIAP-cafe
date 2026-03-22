@@ -27,11 +27,11 @@ Para rodar o projeto é necessário ter alguns pré-requisitos instalados:
 
 **Passo a passo:**  
 1. Clonar o repositório:  
-   git clone <https://github.com/mimasc/-fiap-cpad-cp1-FIAP-cafe>
+   git clone <https://github.com/mimasc/-fiap-cpad-cp1-FIAP-cafe>  
    cd meu-primeiro-app   
-2. Instalar dependências:
+2. Instalar dependências:  
    npm install
-3. Rodar o projeto:
+3. Rodar o projeto:  
    npm start
 4. Escanear o QR Code com o Expo Go ou abrir no emulador.
 
