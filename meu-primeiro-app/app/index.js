@@ -89,5 +89,17 @@ h1: {
     fontSize: 22,
     fontWeight: '600',
     textAlign: 'center',
-}
-):}
+},
+  link: {
+    marginVertical: 10,
+},
+footer: {
+    paddingVertical: 60,
+    alignItems: 'center',
+},
+  footerText: {
+    color: 'rgba(255, 255, 255, 0.367)',
+    textAlign: 'center',
+    lineHeight: 22,
+  };
+});
