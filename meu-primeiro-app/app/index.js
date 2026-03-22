@@ -52,7 +52,27 @@ export default function Index() {
     </ScrollView>
     );
 }
+
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'rgb(43, 42, 42)',
+    paddingHorizontal: 20,
+  },
+  logo: {
+    height: 150,
+    width: '100%',
+    resizeMode: 'contain',
+    marginVertical: 40,
+  },
+  box: {
+    backgroundColor: 'rgb(237, 20, 91)',
+    borderRadius: 50,
+    padding: 20,
+    alignItems: 'center',
+    justifyContent: 'center',
+    minHeight: 450,
+  },
 h1: {
     color: 'white',
     fontSize: 24,
