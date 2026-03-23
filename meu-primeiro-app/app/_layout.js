@@ -2,11 +2,10 @@ import React from 'react';
 import { View, TouchableOpacity, StyleSheet } from 'react-native';
 import { Stack, useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { CartProvider } from '../CartContext';
+import { CartProvider } from './CartContext';
 
-//Componente que será utilizado é o 'BotaoFlutuanteCarrinho'. O objetivo é criar um botão fixo que redireciona o usuário para a tela de checkout.
 function BotaoFlutuanteCarrinho() {
-  const router = useRouter(); //Essa linha inicializa o roteador do Expo
+  const router = useRouter(); 
  
   return (
     <TouchableOpacity
@@ -17,11 +16,6 @@ function BotaoFlutuanteCarrinho() {
     </TouchableOpacity>
   );
 }
-
-//Componente principal que será utilizado é o 'Layout'. Será utilizado o 'RootLayout', que define a estrutura que se repete em todas as telas.
-//O Stack gerencia a pilha de navegação.
-//O '<Stack screenOptions={{ headerShown: false }} />' oculta a barra de título padrão do sistema para permitir que o sistema seja personalizado.
-//O 'BotaoFlutuantecarrinho' fica fora do Stack para que ele fique fixo sobre todas as telas do app.
 export default function Layout() {
   return (
     <CartProvider>
@@ -33,19 +27,17 @@ export default function Layout() {
   );
 }
 
-//Definição dos estilos.
 const styles = StyleSheet.create({
   fab: {
-    position: 'absolute', // Faz o botão flutuar sobre o conteúdo da tela
+    position: 'absolute', 
     bottom: 30,
     right: 20,
-    backgroundColor: '#ff2d6f', // Cor principal
+    backgroundColor: '#ff2d6f', 
     width: 60,
     height: 60,
     borderRadius: 30,
     justifyContent: 'center',
     alignItems: 'center',
-//Personalização da sombra.
     elevation: 5,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
