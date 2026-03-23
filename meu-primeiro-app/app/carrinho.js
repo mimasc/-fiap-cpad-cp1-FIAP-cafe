@@ -87,3 +87,31 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 18,
   },
+precoItem: {
+    color: '#cfcfcf',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  linha: {
+    width: '100%',
+    height: 2,
+    backgroundColor: '#ff2d6f',
+    marginVertical: 20,
+  },
+  totalContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 30,
+  },
+  btnFinalizar: {
+    backgroundColor: '#ff2d6f',
+    padding: 15,
+    borderRadius: 30,
+    alignItems: 'center',
+  },
+  txtFinalizar: {
+    color: 'white',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+});
