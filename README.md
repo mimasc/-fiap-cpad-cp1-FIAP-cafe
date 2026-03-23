@@ -10,7 +10,7 @@ O aplicativo já conta com funcionalidades como navegação entre categorias, ad
 
 ## 👥 Integrantes do Grupo
 - Vitor Komura – RM563694  
-- Caio Castelão – RM563036  
+- Caio Castelão – RM563630  
 - Mirella Mascarenhas – RM562092  
 - Guilherme Tamai – RM563276  
 - André Gouveia – RM564219  
