@@ -27,3 +27,63 @@ export default function Carrinho() {
           ))
         )}
  
+<View style={styles.linha}></View>
+
+        <View style={styles.totalContainer}>
+          <Text style={styles.h2}>Total:</Text>
+          <Text style={styles.h2}>R$ {total.toFixed(2)}</Text>
+        </View>
+
+        <TouchableOpacity
+          style={[styles.btnFinalizar, cart.length === 0 && { opacity: 0.5 }]}
+          disabled={cart.length === 0}
+          onPress={() => alert('Compra finalizada com sucesso! (Simulação)')}
+        >
+          <Text style={styles.txtFinalizar}>Finalizar Compra</Text>
+        </TouchableOpacity>
+      </View>
+    </ScrollView>
+  );
+}
+
+const styles = StyleSheet.create({
+  body: {
+    flex: 1,
+    backgroundColor: '#3a3a3a',
+  },
+  container: {
+    width: '90%',
+    alignSelf: 'center',
+    paddingTop: 50,
+  },
+  btnVoltar: {
+    marginBottom: 20,
+  },
+  textoVoltar: {
+    color: '#ff2d6f',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  h2: {
+    color: '#ff2d6f',
+    fontSize: 28,
+    fontWeight: 'bold',
+    marginBottom: 20,
+  },
+  vazio: {
+    color: '#cfcfcf',
+    fontSize: 16,
+    textAlign: 'center',
+    marginTop: 50,
+  },
+  itemCart: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingVertical: 15,
+    borderBottomWidth: 1,
+    borderBottomColor: '#555',
+  },
+  nomeItem: {
+    color: 'white',
+    fontSize: 18,
+  },
