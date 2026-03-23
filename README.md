@@ -45,6 +45,7 @@ Criar AVD (Pixel 5 ou similar)
 
 ## 🎬 Demonstração
 -Prints das telas do aplicativo:
+
 <img width="252" height="576" alt="image" src="https://github.com/user-attachments/assets/297c384b-b476-4ddf-aab1-58f9b96d3094" />
 <img width="254" height="578" alt="image" src="https://github.com/user-attachments/assets/f1463b18-9955-4fe7-9ac7-5e084efed51e" />
 <img width="253" height="565" alt="image" src="https://github.com/user-attachments/assets/5225bdbb-9e69-408f-b8b7-ac7683af43a1" />
