@@ -10,7 +10,7 @@ O aplicativo já conta com funcionalidades como navegação entre categorias, ad
 
 ## 👥 Integrantes do Grupo
 - Vitor Komura – RM563694  
-- Caio Castelão – RM563036  
+- Caio Castelão – RM563630  
 - Mirella Mascarenhas – RM562092  
 - Guilherme Tamai – RM563276  
 - André Gouveia – RM564219  
@@ -46,14 +46,38 @@ Criar AVD (Pixel 5 ou similar)
 ## 🎬 Demonstração
 (Espaço para prints e link do vídeo que serão posteriormente adicionados no README)
 
+
+<img width="255" height="582" alt="image" src="https://github.com/user-attachments/assets/ef2ba022-574a-4ef9-b3b0-df671de20408" />
+
+
+
+
+
 ---
 
-## 🛠️ Decisões Técnicas
-(Espaço para explicação das decisões técnicas tomadas no desenvolvimento do projeto que serão posteriormente adicionados no README)
 
+
+
+
+## 🛠️ Decisões Técnicas
+O projeto foi estruturado de forma modular, separando as telas principais (index.js e carrinho.js) e utilizando um *contexto global* (CartContext.js) para gerenciar o estado do carrinho. O layout principal (_layout.js) garante que o carrinho esteja acessível em todas as rotas e adiciona um botão flutuante para facilitar a navegação.
+
+Os principais *hooks* utilizados foram:  
+- useState → responsável por controlar o estado do carrinho.  
+- useContext → utilizado para compartilhar o carrinho entre diferentes telas.  
+- useRouter → empregado para gerenciar a navegação entre rotas.  
+
+A navegação foi organizada com expo-router, que permite estruturar as rotas de forma simples e intuitiva, baseada na hierarquia de arquivos. O botão flutuante garante acesso rápido ao carrinho em qualquer tela.
 ---
 
 ## 🔮 Próximos Passos
-(Espaço para sugestão de próximos passos que serão posteriormente adicionados no README)
+Com mais tempo de desenvolvimento, o grupo poderia implementar melhorias como:  
+- Controle de quantidade de itens no carrinho.  
+- Persistência de dados usando AsyncStorage ou banco local.  
+- Integração com sistemas de pagamento reais.  
+- Feedback visual mais moderno (toasts em vez de alertas).  
+- Autenticação de usuários para personalizar pedidos.
+- Funcionamento das outras telas, além do café.
+ ---
 
 
