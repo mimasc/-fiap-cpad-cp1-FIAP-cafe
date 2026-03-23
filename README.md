@@ -13,17 +13,23 @@ O aplicativo já conta com funcionalidades como navegação entre categorias, ad
 - Caio Castelão – RM563036  
 - Mirella Mascarenhas – RM562092  
 - Guilherme Tamai – RM563276  
-- Andre Gouveia – RM564219  
-- Andre Ayelo – RM561754
+- André Gouveia – RM564219  
+- André Nobrega– RM561754
 
 ---
 
 ## 🚀 Como Rodar o Projeto
 Para rodar o projeto é necessário ter alguns pré-requisitos instalados:  
-- Node.js  
+- Node.js (v20 ou superior)
+- JDK 17 ou 21 (LTS)
+- Android Studio ou instalar aplicativo Expo Go no celular (Android/iOS) ou emulador configurado
+- Se escolher instalar o Android Studio faça essas configurações: 
+SDK Platform (Android 13+)
+Android SDK Build-Tools
+Criar AVD (Pixel 5 ou similar)
+
 - Visual Studio Code (VS Code)  
 - Expo CLI (`npm install -g expo-cli`)  
-- Aplicativo Expo Go no celular (Android/iOS) ou emulador configurado  
 
 **Passo a passo:**  
 1. Clonar o repositório:  
@@ -33,7 +39,7 @@ Para rodar o projeto é necessário ter alguns pré-requisitos instalados:
    npm install
 3. Rodar o projeto:  
    npm start
-4. Escanear o QR Code com o Expo Go ou abrir no emulador.
+4. Escanear o QR Code com o Expo Go ou abrir no emulador ou apertar "a" no terminal para abrir o app no Android Studio
 
 ---
 
