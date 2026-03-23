@@ -46,6 +46,9 @@ Criar AVD (Pixel 5 ou similar)
 ## 🎬 Demonstração
 (Espaço para prints e link do vídeo que serão posteriormente adicionados no README)
 
+<img width="252" height="576" alt="image" src="https://github.com/user-attachments/assets/297c384b-b476-4ddf-aab1-58f9b96d3094" />
+
+
 ---
 
 ## 🛠️ Decisões Técnicas
