@@ -1,6 +1,6 @@
 # ☕🥐 Fiap-Café
 
-Aplicativo desenvolvido para simular um sistema de pedidos e retiradas na cantina da universidade. Ele permite que o usuário navegue pelas categorias de produtos (cafés ☕, bebidas 🥤, salgados 🥐, doces 🍩 e outros), adicione itens ao carrinho e visualize o total da compra. O principal problema que resolve é o **excesso de filas**, trazendo mais praticidade e agilidade para os alunos. 
+Aplicativo desenvolvido para simular um sistema de pedidos e retiradas na cantina da universidade. Ele permite que o usuário navegue pela categoria de produtos cafés ☕, adicione itens ao carrinho e visualize o total da compra. O principal problema que resolve é o **excesso de filas**, trazendo mais praticidade e agilidade para os alunos. 
 
 A operação escolhida foi a da **cantina da FIAP**, justamente por ser um espaço de grande fluxo de estudantes e por representar bem a necessidade de otimizar o atendimento.
 
