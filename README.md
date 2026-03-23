@@ -37,7 +37,7 @@ Criar AVD (Pixel 5 ou similar)
    cd meu-primeiro-app   
 2. Instalar dependências:  
    npm install
-3. Rodar o projeto:  
+3. Rodar o projeto no caminho correto ao dar "cd Fiap-Cafe":  
    npm start
 4. Escanear o QR Code com o Expo Go ou abrir no emulador ou apertar "a" no terminal para abrir o app no Android Studio
 
