@@ -33,13 +33,14 @@ Criar AVD (Pixel 5 ou similar)
 
 **Passo a passo:**  
 1. Clonar o repositório:  
-   git clone <https://github.com/mimasc/-fiap-cpad-cp1-FIAP-cafe>  
+   git clone <https://github.com/mimasc/-fiap-cpad-cp1-FIAP-cafe>
+   cd -fiap-cpad-cp1-FIAp-cafe
    cd meu-primeiro-app   
-2. Instalar dependências:  
+3. Instalar dependências:  
    npm install
-3. Rodar o projeto:  
+4. Rodar o projeto:  
    npm start
-4. Escanear o QR Code com o Expo Go ou abrir no emulador ou apertar "a" no terminal para abrir o app no Android Studio
+5. Escanear o QR Code com o Expo Go ou abrir no emulador ou apertar "a" no terminal para abrir o app no Android Studio
 
 ---
 
