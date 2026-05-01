@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { StyleSheet, Text, View, Image, ScrollView, TouchableOpacity } from 'react-native';
-import { CartContext } from './CartContext'; 
+import { CartContext } from '../contexts/CartContext';
  
 export default function Cafes() {
     const { addToCart } = useContext(CartContext);

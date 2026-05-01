@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { StyleSheet, Text, View, ScrollView, TouchableOpacity } from 'react-native';
-import { CartContext } from './CartContext';
+import { CartContext } from '../contexts/CartContext';
 import { useRouter } from 'expo-router';
  
 export default function Carrinho() {
